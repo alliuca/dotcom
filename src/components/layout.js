@@ -13,6 +13,8 @@ const Layout = ({ children, data }) => (
         site {
           siteMetadata {
             title
+            description
+            siteUrl
           }
         }
       }
@@ -22,11 +24,14 @@ const Layout = ({ children, data }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            {
+              name: 'description',
+              content: data.site.siteMetadata.description,
+            },
           ]}
         >
           <html lang="en" />
+          <link rel="canonical" href={data.site.siteMetadata.siteUrl} />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div

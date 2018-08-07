@@ -1,19 +1,53 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'alliuca.com - a Front End developer story',
+    siteUrl: 'https://alliuca.com',
+    description:
+      "Luca Allievi's portfolio, a box full of HTML5, CSS3, JavaScript and other web stuff.",
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Alliuca',
+        short_name: 'Alliuca',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#fdfdfd',
+        theme_color: '#fdfdfd',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icons: [
+          {
+            src: 'src/images/logos/touch/my-logo48.png',
+            type: 'image/png',
+            sizes: '48x48',
+          },
+          {
+            src: 'src/images/logos/touch/my-logo72.png',
+            sizes: '72x72',
+            type: 'image/png',
+          },
+          {
+            src: 'src/images/logos/touch/my-logo96.png',
+            type: 'image/png',
+            sizes: '96x96',
+          },
+          {
+            src: 'src/images/logos/touch/my-logo144.png',
+            sizes: '144x144',
+            type: 'image/png',
+          },
+          {
+            src: 'src/images/logos/touch/my-logo168.png',
+            sizes: '168x168',
+            type: 'image/png',
+          },
+          {
+            src: 'src/images/logos/touch/my-logo192.png',
+            type: 'image/png',
+            sizes: '192x192',
+          },
+        ],
       },
     },
     'gatsby-plugin-offline',
