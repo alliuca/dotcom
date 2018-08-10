@@ -18,32 +18,32 @@ module.exports = {
         display: 'minimal-ui',
         icons: [
           {
-            src: 'src/images/logos/touch/my-logo48.png',
+            src: '/my-logo48.png',
             type: 'image/png',
             sizes: '48x48',
           },
           {
-            src: 'src/images/logos/touch/my-logo72.png',
+            src: '/my-logo72.png',
             sizes: '72x72',
             type: 'image/png',
           },
           {
-            src: 'src/images/logos/touch/my-logo96.png',
+            src: '/my-logo96.png',
             type: 'image/png',
             sizes: '96x96',
           },
           {
-            src: 'src/images/logos/touch/my-logo144.png',
+            src: '/my-logo144.png',
             sizes: '144x144',
             type: 'image/png',
           },
           {
-            src: 'src/images/logos/touch/my-logo168.png',
+            src: '/my-logo168.png',
             sizes: '168x168',
             type: 'image/png',
           },
           {
-            src: 'src/images/logos/touch/my-logo192.png',
+            src: '/my-logo192.png',
             type: 'image/png',
             sizes: '192x192',
           },
