@@ -1,0 +1,82 @@
+{
+  "section": "amsterdam",
+  "ref": "the-equalizer",
+  "title": "The Equalizer",
+  "cta": "Sony Pictures",
+  "url": "http://www.theequalizer-ilfilm.it/",
+  "description": "I'm sure Denzel himself would be proud of us for building this catchy campaign site for The Equalizer. Along with the fantastic Flash game developed by <a href='https://github.com/leedium' target='_blank' rel='noopener'>@leedium</a>, this fullscreen responsive site was a good, honest product.",
+  "image_set": {
+    "sources": [
+      {
+        "srcset": "/images/work/sony-pictures/sony-pictures-bg-large.png",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "srcset": "/images/work/sony-pictures/sony-pictures-bg.png",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "/images/work/sony-pictures/sony-pictures-bg.png",
+      "alt": "Sony Pictures Logo background"
+    }
+  },
+  "screenshots": [
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/sony-pictures/the-equalizer-it-home-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/sony-pictures/the-equalizer-it-home-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/sony-pictures/the-equalizer-it-home.jpg",
+          "alt": "The Equalizer Home"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/sony-pictures/the-equalizer-it-download-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/sony-pictures/the-equalizer-it-download-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/sony-pictures/the-equalizer-it-download.jpg",
+          "alt": "The Equalizer Download Page"
+        }
+      }
+    }
+  ],
+  "technologies": [
+    {
+      "id": "HTML5"
+    },
+    {
+      "id": "CSS3"
+    },
+    {
+      "id": "JavaScript"
+    },
+    {
+      "id": "jQuery"
+    },
+    {
+      "id": "Middleman"
+    },
+    {
+      "id": "Sass"
+    }
+  ]
+}

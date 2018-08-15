@@ -1,0 +1,136 @@
+{
+  "section": "berlin",
+  "ref": "nu3",
+  "title": "nu3 website",
+  "cta": "See the work",
+  "url": "https://www.nu3.com/",
+  "description": "I was hired by nu3 for helping out building the a new fresh UI for their PHP e-commerce platform based on Zend.",
+  "image_set": {
+    "sources": [
+      {
+        "srcset": "/images/work/nu3/nu3-bg.png",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "srcset": "/images/work/nu3/nu3-bg.png",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "/images/work/nu3/nu3-bg.png",
+      "alt": "nu3 Logo background"
+    }
+  },
+  "screenshots": [
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/nu3/nu3-home-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/nu3/nu3-home-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/nu3/nu3-home.jpg",
+          "alt": "nu3 Homepage"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/nu3/nu3-pdp-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/nu3/nu3-pdp-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/nu3/nu3-pdp.jpg",
+          "alt": "nu3 Product Detail Page"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/nu3/nu3-cart-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/nu3/nu3-cart-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/nu3/nu3-cart.jpg",
+          "alt": "nu3 Cart Page"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/nu3/nu3-checkout-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/nu3/nu3-checkout-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/nu3/nu3-checkout.jpg",
+          "alt": "nu3 Checkout Page"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/nu3/nu3-blog-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/nu3/nu3-blog-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/nu3/nu3-blog.jpg",
+          "alt": "nu3 Blog"
+        }
+      }
+    }
+  ],
+  "technologies": [
+    {
+      "id": "HTML5"
+    },
+    {
+      "id": "CSS3"
+    },
+    {
+      "id": "LESS"
+    },
+    {
+      "id": "JavaScript"
+    },
+    {
+      "id": "jQuery"
+    },
+    {
+      "id": "PHP"
+    }
+  ]
+}

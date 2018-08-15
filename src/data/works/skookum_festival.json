@@ -1,0 +1,79 @@
+{
+  "section": "vancouver",
+  "ref": "skookum-festival",
+  "title": "Skookum Festival",
+  "cta": "Skookum Festival",
+  "url": "https://www.skookumfestival.com/",
+  "description": "\"Skookum\" means something like \"monstrously significant\" in the Pacific Northwest. I guess that sums it up perfectly.",
+  "image_set": {
+    "sources": [
+      {
+        "srcset": "",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "srcset": "",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "",
+      "alt": "Skookum background"
+    }
+  },
+  "screenshots": [
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/skookum/skookum-home-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/skookum/skookum-home-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/skookum/skookum-home.jpg",
+          "alt": "Skookum Festival Home"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/skookum/skookum-subscribe-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/skookum/skookum-subscribe-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/skookum/skookum-subscribe.jpg",
+          "alt": "Skookum Festival Subscribe Page"
+        }
+      }
+    }
+  ],
+  "technologies": [
+    {
+      "id": "HTML5"
+    },
+    {
+      "id": "CSS3"
+    },
+    {
+      "id": "React"
+    },
+    {
+      "id": "Redux"
+    },
+    {
+      "id": "JavaScript"
+    }
+  ]
+}

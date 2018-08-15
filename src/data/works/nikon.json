@@ -1,0 +1,94 @@
+{
+  "section": "amsterdam",
+  "ref": "nikon",
+  "title": "Nikon Aspirational Photography",
+  "cta": "Nikon",
+  "url": "",
+  "description": "One of the small campaign projects Nikon requested to be included on their European website for 2014. A simple SPA with a sleek touch to show the work of some of the most amazing photographers out there. Filled with large imagery, galleries and customized video players.",
+  "image_set": {
+    "sources": [
+      {
+        "srcset": "/images/work/nikon/nikon-bg-large.png",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "srcset": "/images/work/nikon/nikon-bg.png",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "/images/work/nikon/nikon-bg.png",
+      "alt": "Nikon Logo background"
+    }
+  },
+  "screenshots": [
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/nikon/nikon-apc-2014-1-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/nikon/nikon-apc-2014-1-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/nikon/nikon-apc-2014-1.jpg",
+          "alt": "nikon Homepage"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/nikon/nikon-apc-2014-2-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/nikon/nikon-apc-2014-2-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/nikon/nikon-apc-2014-2.jpg",
+          "alt": "nikon Tyre Detail Page"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/nikon/nikon-apc-2014-3-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/nikon/nikon-apc-2014-3-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/nikon/nikon-apc-2014-3.jpg",
+          "alt": "nikon Apc"
+        }
+      }
+    }
+  ],
+  "technologies": [
+    {
+      "id": "HTML5"
+    },
+    {
+      "id": "CSS3"
+    },
+    {
+      "id": "JavaScript"
+    },
+    {
+      "id": "jQuery"
+    }
+  ]
+}

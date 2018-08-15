@@ -1,0 +1,32 @@
+{
+  "order": 1,
+  "ref": "vancouver",
+  "title": "Intergalactic",
+  "logo": {
+    "url": "/images/logos/ig-logo.png"
+  },
+  "location": "<span itemprop='location'>Vancouver</span>",
+  "copy": "When I wasn't fighting grizzlies or surfing with dolphins, I would spend my days on board of the <a href='https://intergalactic.com' target='_blank' rel='noopener'>Intergalactic</a> rocket ship, floating in the Web Apps space.",
+  "cta": {
+    "text": "Put the clogs on",
+    "url": "#amsterdam"
+  },
+  "image_set": {
+    "sources": [
+      {
+        "id": 1,
+        "srcset": "/images/vancouver-large.jpg",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "id": 2,
+        "srcset": "/images/vancouver-large.jpg",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "/images/vancouver.jpg",
+      "alt": "Vancouver"
+    }
+  }
+}

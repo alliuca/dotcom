@@ -1,0 +1,33 @@
+{
+  "order": 2,
+  "ref": "amsterdam",
+  "title": "Blast Radius",
+  "logo": {
+    "url": "/images/logos/br-logo.png"
+  },
+  "location": "<span itemprop='location'>Amsterdam</span>",
+  "copy": "Together with the other mad ones at <a href='http://www.blastradius.com/' target='_blank' rel='noopener'>Blast Radius</a> in Amsterdam, I've blown nicely crafted bubbles for big guys such as Michelin, Leerdammer, Sony Pictures, Nikon and Jaguar.",
+  "note": "<sup>*</sup> yeah, <a href='https://en.wikipedia.org/wiki/Currywurst' target='_blank' rel='noopener'>that's not a mistake</a>. I am that funny.",
+  "cta": {
+    "text": "Curry<sup>*</sup> on",
+    "url": "#berlin"
+  },
+  "image_set": {
+    "sources": [
+      {
+        "id": 1,
+        "srcset": "/images/amsterdam-large.jpg",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "id": 2,
+        "srcset": "/images/amsterdam-large.jpg",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "/images/amsterdam.jpg",
+      "alt": "Amsterdam"
+    }
+  }
+}

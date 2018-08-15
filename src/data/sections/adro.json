@@ -1,0 +1,32 @@
+{
+  "order": 5,
+  "ref": "adro",
+  "title": "Freelancing",
+  "logo": {
+    "url": "/images/logos/my-logo2.png"
+  },
+  "location": "Adro, Italy",
+  "copy": "This is where all began now over six years ago, ever since I started to flap my small developer wings. At first I was timidly tinkering with HTML and CSS on a MySpace account (pretty much the playground for any UI developer at the time, lol). <br>Having realized a career as Counter Strike gamer wasn't really achievable, I wrapped up my programming knowledge from the high school and head banged my way to being a professional developer, thanks to the support of my family and the great Andrea at <a href='http://www.ardua.it/' target='_blank' rel='noopener'>Ardua</a>",
+  "cta": {
+    "text": "Get in touch",
+    "url": "#contact"
+  },
+  "image_set": {
+    "sources": [
+      {
+        "id": 1,
+        "srcset": "/images/adro-large.jpg",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "id": 2,
+        "srcset": "/images/adro-large.jpg",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "/images/adro.jpg",
+      "alt": "Adro"
+    }
+  }
+}

@@ -2,12 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-import favicon from '../images/favicon.png'
+import favicon from '../../images/favicon.png'
 
-import Header from './header'
-import './layout.css'
+import '../../theme'
+import Layout from './theme'
+import Header from './../Header'
+import Footer from './../Footer'
 
-const Layout = ({ children, data }) => (
+const LayoutComponent = ({ children, data }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -36,23 +38,17 @@ const Layout = ({ children, data }) => (
           <link rel="canonical" href={data.site.siteMetadata.siteUrl} />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: '0 auto',
-            maxWidth: 960,
-            padding: '0px 1.0875rem 1.45rem',
-            paddingTop: 0,
-          }}
-        >
+        <Layout itemScope itemType="http://schema.org/Organization">
           {children}
-        </div>
+        </Layout>
+        <Footer />
       </>
     )}
   />
 )
 
-Layout.propTypes = {
+LayoutComponent.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default LayoutComponent

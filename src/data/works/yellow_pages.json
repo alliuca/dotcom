@@ -1,0 +1,48 @@
+{
+  "section": "malta",
+  "ref": "yellow-pages",
+  "title": "Yellow Pages Malta microsites",
+  "cta": "See the work",
+  "url": "",
+  "description": "My first experience in an international environment began by working on a custom Wordpress network of minisites for the clients of Yellow Pages Malta. The creative team was looking for an easier way to make such simple protomotional products, so I came up with a Wordpress solution that used <a href='http://headwaythemes.com/' title='visit headwaythemes.com'>Headway Themes</a> as drag-n-drop tool to build each piece. They thought it was vodoo magic, but it worked!",
+  "image_set": {
+    "sources": [
+      {
+        "srcset": "/images/work/yellow-pages/yellow-pages-bg-large.png",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "srcset": "/images/work/yellow-pages/yellow-pages-bg-large.png",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "/images/work/yellow-pages/yellow-pages-bg.png",
+      "alt": "Yellow Pages logo background"
+    }
+  },
+  "screenshots": [],
+  "technologies": [
+    {
+      "id": "HTML5"
+    },
+    {
+      "id": "CSS3"
+    },
+    {
+      "id": "JavaScript"
+    },
+    {
+      "id": "jQuery"
+    },
+    {
+      "id": "PHP"
+    },
+    {
+      "id": "Wordpress"
+    },
+    {
+      "id": "HeadwayThemes"
+    }
+  ]
+}

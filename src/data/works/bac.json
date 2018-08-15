@@ -1,0 +1,103 @@
+{
+  "section": "amsterdam",
+  "ref": "bac",
+  "title": "Brand Asset Consult",
+  "cta": "BAC",
+  "url": "http://www.brandassetconsult.nl/",
+  "description": "We redesigned and rebuilt this website for our colleague from inside the network (who literally seats behind me!) and this has been a fun project which I took upon myself since the beginning. Built with ProcessWire and using Front End superpowers, it's a showcase to what this company can do to strategically evaluate your brand.",
+  "image_set": {
+    "sources": [
+      {
+        "srcset": "/images/work/bac/bac-bg-large.png",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "srcset": "/images/work/bac/bac-bg.png",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "/images/work/bac/bac-bg.png",
+      "alt": "Brand Asset Consult Logo background"
+    }
+  },
+  "screenshots": [
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/bac/bac-home-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/bac/bac-home-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/bac/bac-home.jpg",
+          "alt": "Brand Asset Consult Homepage"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/bac/bac-valuator-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/bac/bac-valuator-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/bac/bac-details.jpg",
+          "alt": "Brand Asset Consult Valuator and another section on mobile"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/bac/bac-insights-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/bac/bac-insights-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/bac/bac-insights.jpg",
+          "alt": "Brand Asset Consult Insights (blog)"
+        }
+      }
+    }
+  ],
+  "technologies": [
+    {
+      "id": "HTML5"
+    },
+    {
+      "id": "CSS3"
+    },
+    {
+      "id": "Sass"
+    },
+    {
+      "id": "JavaScript"
+    },
+    {
+      "id": "jQuery"
+    },
+    {
+      "id": "VueJS"
+    },
+    {
+      "id": "ProcessWire"
+    }
+  ]
+}

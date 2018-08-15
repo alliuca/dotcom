@@ -1,0 +1,115 @@
+{
+  "section": "vancouver",
+  "ref": "storm-crow",
+  "title": "Storm Crow - Santa Says",
+  "cta": "Storm Crow",
+  "url": "http://santasays.intergalactic.com/",
+  "description": "If you happen to be in Vancouver during the Christmas holidays, Storm Crow is worth a visit. There, you can play a fun game I developed at Intergalactic, a christmasy version of the more popular Simon Says. A beautiful React app that communicates with LED lights via Web Sockets.",
+  "image_set": {
+    "sources": [
+      {
+        "srcset": "",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "srcset": "",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "",
+      "alt": "Santa Says background"
+    }
+  },
+  "screenshots": [
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/santasays/santasays-welcome-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/santasays/santasays-welcome-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/santasays/santasays-welcome.jpg",
+          "alt": "Santa Says Welcome Screen"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/santasays/santasays-instructions-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/santasays/santasays-instructions-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/santasays/santasays-instructions.jpg",
+          "alt": "Santa Says Instructions Screen"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/santasays/santasays-level-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/santasays/santasays-level-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/santasays/santasays-level.jpg",
+          "alt": "Santa Says Level Screen"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/santasays/santasays-win-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/santasays/santasays-win-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/santasays/santasays-win.jpg",
+          "alt": "Santa Says Win Screen"
+        }
+      }
+    }
+  ],
+  "technologies": [
+    {
+      "id": "HTML5"
+    },
+    {
+      "id": "CSS3"
+    },
+    {
+      "id": "React"
+    },
+    {
+      "id": "Redux"
+    },
+    {
+      "id": "JavaScript"
+    }
+  ]
+}

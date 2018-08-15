@@ -1,0 +1,112 @@
+{
+  "section": "vancouver",
+  "ref": "muse",
+  "title": "Muse",
+  "cta": "Muse",
+  "url": "",
+  "description": "In collaboration with the folks over at Microsoft and using data from the City of Vancouver, I built the React Native frontend of this great Pokemon GO (ish) app that lets you discover Art in the city.",
+  "image_set": {
+    "sources": [
+      {
+        "srcset": "",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "srcset": "",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "",
+      "alt": "Muse background"
+    }
+  },
+  "screenshots": [
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/muse/muse-splash-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/muse/muse-splash-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/muse/muse-splash.jpg",
+          "alt": "Muse Splash Screen"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/muse/muse-explore-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/muse/muse-explore-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/muse/muse-explore.jpg",
+          "alt": "Muse Explore Screen"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/muse/muse-menu-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/muse/muse-menu-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/muse/muse-menu.jpg",
+          "alt": "Muse Menu"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "srcset": "/images/work/muse/muse-map-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "srcset": "/images/work/muse/muse-map-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/muse/muse-map.jpg",
+          "alt": "Muse Map"
+        }
+      }
+    }
+  ],
+  "technologies": [
+    {
+      "id": "ReactNative"
+    },
+    {
+      "id": "Redux"
+    },
+    {
+      "id": "CSS3"
+    },
+    {
+      "id": "JavaScript"
+    }
+  ]
+}
