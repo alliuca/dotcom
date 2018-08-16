@@ -18,7 +18,7 @@ const WorkComponent = ({
 }) => (
   <Work reference={reference} active={active}>
     <Work.Content>
-      <Work.Close onClick={closeWork}>
+      <Work.Close aria-label="Close" onClick={closeWork}>
         <span className="icon icon--close" />
       </Work.Close>
       <h2>{title}</h2>
