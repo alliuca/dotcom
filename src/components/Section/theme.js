@@ -81,6 +81,10 @@ const Section = styled.section(
           ${mq.desktop(css`
             height: 60vh;
           `)};
+
+          ${mq.tabletPortrait(css`
+            bottom: 25vh;
+          `)};
         }
       `};
 
@@ -155,7 +159,7 @@ const Content = styled.div`
   margin: 0 auto;
   text-align: center;
 
-  ${mq.tabletLandscape(css`
+  ${mq.tablet(css`
     padding-bottom: 0;
   `)};
 `
@@ -226,7 +230,7 @@ const ContentLogo = styled.div`
 const ContentLocation = styled.h4`
   margin: 0.7em 0 1.8em;
 
-  ${mq.tabletLandscape(css`
+  ${mq.tablet(css`
     margin-bottom: 0;
   `)};
 `

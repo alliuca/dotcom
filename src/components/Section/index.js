@@ -11,6 +11,8 @@ class SectionComponent extends PureComponent {
 
   openWork = ref => this.setState({ work: ref })
 
+  closeWork = () => this.setState({ work: null })
+
   render() {
     const { node, works } = this.props
 
@@ -58,6 +60,7 @@ class SectionComponent extends PureComponent {
                     key={work.node.ref}
                     ref={work.node.ref}
                     onClick={() => this.openWork(work.node.ref)}
+                    small
                     white
                   >
                     {work.node.cta}
@@ -71,6 +74,7 @@ class SectionComponent extends PureComponent {
               scroll={node.location ? node.ref : false}
               onClick={() => scrollTo(node.cta.url)}
               dangerouslySetInnerHTML={{ __html: node.cta.text }}
+              small={node.ref !== 'intro'}
             />
             <Section.ContentNote
               dangerouslySetInnerHTML={{ __html: node.note }}
@@ -82,13 +86,16 @@ class SectionComponent extends PureComponent {
             <Picture imageSet={node.image_set} />
           </Section.Background>
         )}
-        {node.works &&
-          node.works.map(work => (
+        {works &&
+          works.map(({ node }) => (
             <Work
-              key={work.id}
-              active={this.state.work === work.ref}
-              reference={work.ref}
-              {...work}
+              key={node.ref}
+              active={this.state.work === node.ref}
+              reference={node.ref}
+              imageSet={node.image_set}
+              screenshots={node.screenshots}
+              closeWork={this.closeWork}
+              {...node}
             />
           ))}
       </Section>

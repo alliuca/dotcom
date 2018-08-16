@@ -1,4 +1,5 @@
 {
+  "disabled": "false",
   "section": "adro",
   "ref": "cpa",
   "title": "Centro Professionale Audio",
@@ -8,10 +9,12 @@
   "image_set": {
     "sources": [
       {
+        "id": 1,
         "srcset": "/images/work/cpa/cpa-bg-large.png",
         "media": "(min-width: 62rem)"
       },
       {
+        "id": 2,
         "srcset": "/images/work/cpa/cpa-bg-large.png",
         "media": "(min-width: 48rem)"
       }
@@ -26,10 +29,12 @@
       "image_set": {
         "sources": [
           {
+            "id": 1,
             "srcset": "/images/work/cpa/cpa-home-large.png",
             "media": "(min-width: 62rem)"
           },
           {
+            "id": 2,
             "srcset": "/images/work/cpa/cpa-home-large.png",
             "media": "(min-width: 48rem)"
           }
@@ -44,10 +49,12 @@
       "image_set": {
         "sources": [
           {
+            "id": 1,
             "srcset": "/images/work/cpa/cpa-product-large.png",
             "media": "(min-width: 62rem)"
           },
           {
+            "id": 2,
             "srcset": "/images/work/cpa/cpa-product-large.png",
             "media": "(min-width: 48rem)"
           }
@@ -62,10 +69,12 @@
       "image_set": {
         "sources": [
           {
+            "id": 1,
             "srcset": "/images/work/cpa/cpa-cart-large.png",
             "media": "(min-width: 62rem)"
           },
           {
+            "id": 2,
             "srcset": "/images/work/cpa/cpa-cart-large.png",
             "media": "(min-width: 48rem)"
           }

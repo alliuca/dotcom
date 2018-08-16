@@ -1,7 +1,8 @@
 import styled, { css } from 'react-emotion'
+import mq from '../../theme/responsive'
 
 const Button = styled.a(
-  ({ large, white }) => css`
+  ({ large, small, white }) => css`
     position: relative;
     display: inline-block;
     padding: 1em 1.5em;
@@ -19,6 +20,16 @@ const Button = styled.a(
       css`
         padding: 1em 1.5em;
         font-size: 0.7em;
+      `};
+    ${small &&
+      css`
+        font-size: 0.6em;
+        padding: 0.7em 1.2em;
+
+        ${mq.tablet(css`
+          padding: 1em 1.5em;
+          font-size: 0.7em;
+        `)};
       `};
     ${white &&
       css`

@@ -1,4 +1,5 @@
 {
+  "disabled": "false",
   "section": "amsterdam",
   "ref": "jaguar",
   "title": "Jaguar F-TYPE Project 7",
@@ -8,10 +9,12 @@
   "image_set": {
     "sources": [
       {
+        "id": 1,
         "srcset": "/images/work/jaguar/jaguar-bg-large.png",
         "media": "(min-width: 62rem)"
       },
       {
+        "id": 2,
         "srcset": "/images/work/jaguar/jaguar-bg.png",
         "media": "(min-width: 48rem)"
       }
@@ -26,10 +29,12 @@
       "image_set": {
         "sources": [
           {
+            "id": 1,
             "srcset": "/images/work/jaguar/jaguar-home-large.png",
             "media": "(min-width: 62rem)"
           },
           {
+            "id": 2,
             "srcset": "/images/work/jaguar/jaguar-home-large.png",
             "media": "(min-width: 48rem)"
           }
@@ -44,10 +49,12 @@
       "image_set": {
         "sources": [
           {
+            "id": 1,
             "srcset": "/images/work/jaguar/jaguar-configurator-color-large.png",
             "media": "(min-width: 62rem)"
           },
           {
+            "id": 2,
             "srcset": "/images/work/jaguar/jaguar-configurator-color-large.png",
             "media": "(min-width: 48rem)"
           }
@@ -62,10 +69,12 @@
       "image_set": {
         "sources": [
           {
+            "id": 1,
             "srcset": "/images/work/jaguar/jaguar-configurator-summary-large.png",
             "media": "(min-width: 62rem)"
           },
           {
+            "id": 2,
             "srcset": "/images/work/jaguar/jaguar-configurator-summary-large.png",
             "media": "(min-width: 48rem)"
           }

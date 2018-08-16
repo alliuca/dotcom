@@ -93,13 +93,41 @@ export const query = graphql`
         }
       }
     }
-    allWorksJson {
+    allWorksJson(filter: { disabled: { eq: "false" } }) {
       edges {
         node {
           section
           ref
           title
           cta
+          description
+          technologies {
+            id
+          }
+          image_set {
+            sources {
+              id
+              srcset
+              media
+            }
+            img {
+              srcset
+              alt
+            }
+          }
+          screenshots {
+            image_set {
+              sources {
+                id
+                srcset
+                media
+              }
+              img {
+                srcset
+                alt
+              }
+            }
+          }
         }
       }
     }

@@ -4,7 +4,7 @@ const BackboneJS = () => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 724 899">
     <g
       fill="none"
-      fill-rule="evenodd"
+      fillRule="evenodd"
       stroke="#848484"
       transform="translate(1 1)"
     >

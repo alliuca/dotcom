@@ -15,6 +15,7 @@
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-source-strapi": "^0.0.3",
     "gatsby-transformer-json": "^1.0.20",
+    "lory.js": "^2.5.1",
     "moize": "^5.3.2",
     "normalize.css": "^8.0.0",
     "react": "^16.4.1",

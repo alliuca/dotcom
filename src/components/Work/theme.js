@@ -1,4 +1,5 @@
 import styled, { css } from 'react-emotion'
+import mq from '../../theme/responsive'
 
 const workStyles = ({ reference }) => {
   switch (reference) {
@@ -7,26 +8,34 @@ const workStyles = ({ reference }) => {
         background: var(--muse);
         color: var(--white);
 
-        .slider__slide img {
+        .js_slide img {
           position: relative;
           top: 4px;
+
+          ${mq.tablet(css`
+            max-width: 30%;
+          `)};
         }
       `
-    case 'skookum_festival':
+    case 'skookum-festival':
       return css`
         background: var(--skookum_festival);
         color: var(--white);
       `
-    case 'storm_crow':
+    case 'storm-crow':
       return css`
         background: var(--storm_crow);
         color: var(--white);
 
-        .slider__slide img {
+        .js_slide img {
           position: relative;
           top: 1px;
           left: -1px;
           max-width: 100.5%;
+
+          ${mq.tablet(css`
+            max-width: 30%;
+          `)};
         }
       `
     case 'michelin':
@@ -34,17 +43,21 @@ const workStyles = ({ reference }) => {
         background: var(--michelin);
         color: var(--white);
 
-        .section__background img {
+        .SectionBackground img {
           transform: scale(1.6) translate(20%, 22%);
         }
       `
-    case 'sony_pictures':
+    case 'sony-pictures':
       return css`
         background: var(--sony_pictures);
         color: var(--white);
 
-        .section__background img {
+        .SectionBackground img {
           transform: scale(0.9) translate(28%, 5%);
+
+          ${mq.desktop(css`
+            transform: scale(0.9) translate(80%, 5%);
+          `)};
         }
       `
     case 'jaguar':
@@ -52,8 +65,12 @@ const workStyles = ({ reference }) => {
         background: var(--jaguar);
         color: var(--white);
 
-        .section__background img {
+        .SectionBackground img {
           transform: scale(1.9) translate(24%, 42%);
+
+          ${mq.desktop(css`
+            transform: scale(1.9) translate(50%, 42%);
+          `)};
         }
       `
     case 'nikon':
@@ -61,8 +78,12 @@ const workStyles = ({ reference }) => {
         background: var(--nikon);
         color: var(--black);
 
-        .section__background img {
+        .SectionBackground img {
           transform: scale(1.7) translate(30%, 50%);
+
+          ${mq.desktop(css`
+            transform: scale(2) translate(60%, 50%);
+          `)};
         }
       `
     case 'bac':
@@ -70,7 +91,7 @@ const workStyles = ({ reference }) => {
         background: var(--bac);
         color: var(--white);
 
-        .section__background img {
+        .SectionBackground img {
           transform: scale(1.7) translate(30%, 50%);
         }
       `
@@ -79,17 +100,25 @@ const workStyles = ({ reference }) => {
         background: var(--nu3);
         color: var(--black);
 
-        .section__background img {
+        .SectionBackground img {
           transform: scale(1) translate(16%, -5%);
+
+          ${mq.desktop(css`
+            transform: scale(1.2) translate(70%, 0%);
+          `)};
         }
       `
-    case 'yellow_pages':
+    case 'yellow-pages':
       return css`
         background: var(--yellow_pages);
         color: var(--black);
 
-        .section__background img {
+        .SectionBackground img {
           transform: scale(1.2) translate(22%, 15%);
+
+          ${mq.desktop(css`
+            transform: scale(1.4) translate(40%, 15%);
+          `)};
         }
       `
     case 'cpa':
@@ -102,7 +131,7 @@ const workStyles = ({ reference }) => {
         background: var(--ardua);
         color: var(--black);
 
-        .section__background img {
+        .SectionBackground img {
           transform: scale(1.2) translate(25%, 45%);
         }
       `
@@ -136,19 +165,30 @@ const Work = styled.div(
       margin-top: 0.5em;
     }
 
-    .icon--close {
-      position: absolute;
-      top: var(--default_padding);
-      right: var(--default_padding);
-    }
-
     ${active &&
       css`
         transform: translateX(0%);
       `};
     ${reference && workStyles({ reference })};
+
+    .SectionBackground {
+      z-index: -1;
+      opacity: 0.07;
+      max-width: 48em;
+      filter: blur(8px);
+    }
   `
 )
+
+const Close = styled.button`
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  background: none;
+  border: 0;
+  color: currentColor;
+  cursor: pointer;
+`
 
 const Content = styled.div`
   max-width: 48em;
@@ -165,11 +205,17 @@ const Technologies = styled.div`
   justify-content: center;
   margin: 1em -1.5em 0;
 
-  .icon {
+  > span {
     margin: 0.5em;
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
   }
 `
 
+Work.Close = Close
 Work.Content = Content
 Work.Gallery = Gallery
 Work.Technologies = Technologies

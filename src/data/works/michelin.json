@@ -1,4 +1,5 @@
 {
+  "disabled": "false",
   "section": "amsterdam",
   "ref": "michelin",
   "title": "Michelin",
@@ -8,10 +9,12 @@
   "image_set": {
     "sources": [
       {
+        "id": 1,
         "srcset": "/images/work/michelin/michelin-bg-large.png",
         "media": "(min-width: 62rem)"
       },
       {
+        "id": 2,
         "srcset": "/images/work/michelin/michelin-bg.png",
         "media": "(min-width: 48rem)"
       }
@@ -26,10 +29,12 @@
       "image_set": {
         "sources": [
           {
+            "id": 1,
             "srcset": "/images/work/michelin/michelin-fr-home-large.png",
             "media": "(min-width: 62rem)"
           },
           {
+            "id": 2,
             "srcset": "/images/work/michelin/michelin-fr-home-large.png",
             "media": "(min-width: 48rem)"
           }
@@ -44,10 +49,12 @@
       "image_set": {
         "sources": [
           {
+            "id": 1,
             "srcset": "/images/work/michelin/michelin-com-tr-tdp-large.png",
             "media": "(min-width: 62rem)"
           },
           {
+            "id": 2,
             "srcset": "/images/work/michelin/michelin-com-tr-tdp-large.png",
             "media": "(min-width: 48rem)"
           }
@@ -62,10 +69,12 @@
       "image_set": {
         "sources": [
           {
+            "id": 1,
             "srcset": "/images/work/michelin/michelin-cc-large.png",
             "media": "(min-width: 62rem)"
           },
           {
+            "id": 2,
             "srcset": "/images/work/michelin/michelin-cc-large.png",
             "media": "(min-width: 48rem)"
           }

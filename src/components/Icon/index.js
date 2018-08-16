@@ -14,7 +14,6 @@ class IconComponent extends Component {
 
     import(`./${this.props.type}`)
       .then(IconSvg => {
-        console.log('IconSvg', IconSvg)
         if (!this.__unmounted && IconSvg.default) {
           this.setState({
             iconType: this.props.type,

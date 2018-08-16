@@ -4,7 +4,7 @@ const Middleman = () => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
     <g fill="none">
       <rect width="256" height="256" fill="#F1C761" rx="22" />
-      <g fill="#000" fill-opacity=".35" transform="translate(19.561 32.319)">
+      <g fill="#000" fillOpacity=".35" transform="translate(19.561 32.319)">
         <polyline points="98.535 156.878 98.535 35.9 69.114 40.031 46.616 83.632 25.234 45.223 .503 49.131 .503 144.484 23.782 148.448 23.782 88.099 46.56 131.029 47.062 131.029 71.068 87.931 71.068 152.802 98.535 156.878" />
         <polyline points="0 21.664 0 34.169 108.864 16.137 108.864 .17 0 21.664" />
         <polyline points="0 169.551 108.864 190.989 108.864 175.078 0 156.989 0 169.551" />

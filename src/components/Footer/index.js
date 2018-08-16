@@ -7,7 +7,7 @@ const FooterComponent = () => {
     <Footer>
       <p>
         <strong>alliuca.com</strong>
-        <span>&copy; 2017 - 2018</span>
+        <span>&nbsp;&copy; 2018</span>
         <a href="#intro" onClick={() => scrollTo('#intro')}>
           Back to top
         </a>

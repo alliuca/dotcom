@@ -1,4 +1,5 @@
 {
+  "disabled": "false",
   "section": "malta",
   "ref": "yellow-pages",
   "title": "Yellow Pages Malta microsites",
@@ -8,10 +9,12 @@
   "image_set": {
     "sources": [
       {
+        "id": 1,
         "srcset": "/images/work/yellow-pages/yellow-pages-bg-large.png",
         "media": "(min-width: 62rem)"
       },
       {
+        "id": 2,
         "srcset": "/images/work/yellow-pages/yellow-pages-bg-large.png",
         "media": "(min-width: 48rem)"
       }

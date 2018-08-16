@@ -2,6 +2,7 @@ import { css } from 'react-emotion'
 
 const breakpoints = {
   mobile: '(max-width: 767px)',
+  tabletPortrait: '(min-width: 768px) and (orientation: portrait)',
   tabletLandscape: '(min-width: 768px) and (orientation: landscape)',
   tablet: 768,
   desktop: 1024,

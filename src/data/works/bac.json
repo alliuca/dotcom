@@ -1,4 +1,5 @@
 {
+  "disabled": "false",
   "section": "amsterdam",
   "ref": "bac",
   "title": "Brand Asset Consult",
@@ -8,10 +9,12 @@
   "image_set": {
     "sources": [
       {
+        "id": 1,
         "srcset": "/images/work/bac/bac-bg-large.png",
         "media": "(min-width: 62rem)"
       },
       {
+        "id": 2,
         "srcset": "/images/work/bac/bac-bg.png",
         "media": "(min-width: 48rem)"
       }
@@ -26,10 +29,12 @@
       "image_set": {
         "sources": [
           {
+            "id": 1,
             "srcset": "/images/work/bac/bac-home-large.png",
             "media": "(min-width: 62rem)"
           },
           {
+            "id": 2,
             "srcset": "/images/work/bac/bac-home-large.png",
             "media": "(min-width: 48rem)"
           }
@@ -44,10 +49,12 @@
       "image_set": {
         "sources": [
           {
+            "id": 1,
             "srcset": "/images/work/bac/bac-valuator-large.png",
             "media": "(min-width: 62rem)"
           },
           {
+            "id": 2,
             "srcset": "/images/work/bac/bac-valuator-large.png",
             "media": "(min-width: 48rem)"
           }
@@ -62,10 +69,12 @@
       "image_set": {
         "sources": [
           {
+            "id": 1,
             "srcset": "/images/work/bac/bac-insights-large.png",
             "media": "(min-width: 62rem)"
           },
           {
+            "id": 2,
             "srcset": "/images/work/bac/bac-insights-large.png",
             "media": "(min-width: 48rem)"
           }

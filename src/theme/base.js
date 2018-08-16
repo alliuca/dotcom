@@ -66,8 +66,8 @@ injectGlobal`
   }
 
   .icon--close {
-    width: 1.7em;
-    height: 1.7em;
+    width: 2em;
+    height: 2em;
 
     &:before,
     &:after {
@@ -80,11 +80,11 @@ injectGlobal`
     }
 
     &:before {
-      transform: rotate(45deg);
+      transform: translateY(1em) rotate(45deg);
     }
 
     &:after {
-      transform: rotate(-45deg);
+      transform: translateY(1em) rotate(-45deg);
     }
   }
 `
