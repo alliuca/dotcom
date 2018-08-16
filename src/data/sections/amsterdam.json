@@ -10,7 +10,8 @@
   "note": "<sup>*</sup> yeah, <a href='https://en.wikipedia.org/wiki/Currywurst' target='_blank' rel='noopener'>that's not a mistake</a>. I am that funny.",
   "cta": {
     "text": "Curry<sup>*</sup> on",
-    "url": "#berlin"
+    "url": "#berlin",
+    "data_ga_label": "Berlin"
   },
   "image_set": {
     "sources": [

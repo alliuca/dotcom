@@ -2,6 +2,7 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Nav from './theme'
 import scrollTo from '../../utils/scrollTo'
+import gaTrack from '../../utils/gaTrack'
 
 const NavComponent = () => {
   return (
@@ -26,8 +27,10 @@ const NavComponent = () => {
               <Nav.MainNavItem key={doc.node.id.toString()}>
                 <Nav.MainNavItemLink
                   href={doc.node.url}
-                  data-ga-label={doc.node.title}
-                  onClick={() => scrollTo(doc.node.url)}
+                  onClick={() => {
+                    gaTrack('Main nav item', doc.node.title)
+                    scrollTo(doc.node.url)
+                  }}
                 >
                   {doc.node.title}
                 </Nav.MainNavItemLink>

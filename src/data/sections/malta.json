@@ -9,7 +9,8 @@
   "copy": "Ok I gotta admit I didn't know where Malta precisely was until I got there in 2012. <br>I eventually figured that out and started my internship at <a href='https://www.yellow.com.mt/' target='_blank' rel='noopener'>Yellow Pages</a>, where I had the opportunity to build a humble Wordpress network of drag-n-drop created sites. <br>I know. Wordpress's great right? :v",
   "cta": {
     "text": "Climb back up",
-    "url": "#adro"
+    "url": "#adro",
+    "data_ga_label": "Adro"
   },
   "image_set": {
     "sources": [

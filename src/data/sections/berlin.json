@@ -9,7 +9,8 @@
   "copy": "A bit more than three years before, I was wandering through the streets of Berlin. <br>A vibrant startup, <a href='https://www.nu3.com/' target='_blank' rel='noopener'>nu3</a>, decided I was good looking enough to help them build a fresh UI for their fantastic e-commerce platform.",
   "cta": {
     "text": "Cross over",
-    "url": "#malta"
+    "url": "#malta",
+    "data_ga_label": "Malta"
   },
   "image_set": {
     "sources": [

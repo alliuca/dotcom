@@ -3,6 +3,7 @@ import Section from './theme'
 import Picture from '../Picture'
 import Work from '../Work'
 import scrollTo from '../../utils/scrollTo'
+import gaTrack from '../../utils/gaTrack'
 
 class SectionComponent extends PureComponent {
   state = {
@@ -59,7 +60,10 @@ class SectionComponent extends PureComponent {
                   <Section.ContentCtaButton
                     key={work.node.ref}
                     ref={work.node.ref}
-                    onClick={() => this.openWork(work.node.ref)}
+                    onClick={() => {
+                      gaTrack('Work Button', work.node.title)
+                      this.openWork(work.node.ref)
+                    }}
                     small
                     white
                   >
@@ -70,9 +74,11 @@ class SectionComponent extends PureComponent {
             )}
             <Section.ContentCtaButton
               href={node.cta.url}
-              data-ga-label={node.cta.data_ga_label}
               scroll={node.location ? node.ref : false}
-              onClick={() => scrollTo(node.cta.url)}
+              onClick={() => {
+                gaTrack('Scroll to section Button', node.cta.data_ga_label)
+                scrollTo(node.cta.url)
+              }}
               dangerouslySetInnerHTML={{ __html: node.cta.text }}
               small={node.ref !== 'intro'}
             />

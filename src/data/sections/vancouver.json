@@ -9,7 +9,8 @@
   "copy": "When I wasn't fighting grizzlies or surfing with dolphins, I would spend my days on board of the <a href='https://intergalactic.com' target='_blank' rel='noopener'>Intergalactic</a> rocket ship, floating in the Web Apps space.",
   "cta": {
     "text": "Put the clogs on",
-    "url": "#amsterdam"
+    "url": "#amsterdam",
+    "data_ga_label": "Amsterdam"
   },
   "image_set": {
     "sources": [
