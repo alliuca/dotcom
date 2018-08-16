@@ -62,6 +62,7 @@ class SectionComponent extends PureComponent {
                     ref={work.node.ref}
                     onClick={() => {
                       gaTrack('Work Button', work.node.title)
+                      scrollTo(`#${work.node.section}`)
                       this.openWork(work.node.ref)
                     }}
                     small
