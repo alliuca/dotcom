@@ -140,6 +140,15 @@ const workStyles = ({ reference }) => {
   }
 }
 
+export const PlaceholderContainer = styled.div`
+  width: 55%;
+  margin: 0 auto;
+
+  ${mq.tablet(css`
+    width: 80%;
+  `)};
+`
+
 const Work = styled.div(
   ({ active, reference }) => css`
     position: absolute;
@@ -196,6 +205,7 @@ const Content = styled.div`
 `
 
 const Gallery = styled.div`
+  width: 100%;
   margin-top: auto;
 `
 

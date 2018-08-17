@@ -1,10 +1,40 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Work from './theme'
+import Loadable from 'react-loadable'
+import Work, { PlaceholderContainer } from './theme'
 import Icon from '../Icon'
-import Slider from '../Slider'
 import Picture from '../Picture'
 import Section from '../Section/theme'
+
+const Slider = Loadable({
+  loader: () => import('../Slider'),
+  loading() {
+    return (
+      <PlaceholderContainer>
+        <Picture
+          imageSet={{
+            sources: [
+              {
+                id: 1,
+                srcset: '/images/work/safari.png',
+                media: '(min-width: 62rem)',
+              },
+              {
+                id: 2,
+                srcset: '/images/work/safari.png',
+                media: '(min-width: 48rem)',
+              },
+            ],
+            img: {
+              srcset: '/images/work/iphone-transparent.png',
+              alt: 'iPhone placeholder',
+            },
+          }}
+        />
+      </PlaceholderContainer>
+    )
+  },
+})
 
 const WorkComponent = ({
   title,
@@ -29,11 +59,12 @@ const WorkComponent = ({
         ))}
       </Work.Technologies>
     </Work.Content>
-    {screenshots && (
-      <Work.Gallery>
-        <Slider slides={screenshots} />
-      </Work.Gallery>
-    )}
+    {screenshots &&
+      active && (
+        <Work.Gallery>
+          <Slider slides={screenshots} />
+        </Work.Gallery>
+      )}
     {imageSet && (
       <Section.Background className="SectionBackground">
         <Picture imageSet={imageSet} />

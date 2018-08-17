@@ -33,7 +33,7 @@ const Container = styled.div(
     position: relative;
     width: 55%;
     margin: 0 auto;
-    padding-bottom: 27%;
+    padding-bottom: 115%;
 
     &:before {
       content: '';
@@ -44,6 +44,7 @@ const Container = styled.div(
       background: url(/images/work/iphone-transparent.png) 0 0 no-repeat;
       width: 100%;
       height: 100%;
+      padding-bottom: 27%;
       background-size: 100%;
       z-index: 1;
       ${invisible &&
