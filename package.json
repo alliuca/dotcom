@@ -12,7 +12,6 @@
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-offline": "^1.0.18",
     "gatsby-plugin-react-helmet": "next",
-    "gatsby-plugin-typography": "^1.7.19",
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-source-strapi": "^0.0.3",
     "gatsby-transformer-json": "^1.0.20",
