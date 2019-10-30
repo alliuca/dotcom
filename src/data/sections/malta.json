@@ -1,0 +1,33 @@
+{
+  "order": 4,
+  "ref": "malta",
+  "title": "Yellow Pages Malta",
+  "logo": {
+    "url": "/images/logos/yp-logo.png"
+  },
+  "location": "Malta",
+  "copy": "Ok I gotta admit I didn't know where Malta precisely was until I got there in 2012. <br>I eventually figured that out and started my internship at <a href='https://www.yellow.com.mt/' target='_blank' rel='noopener'>Yellow Pages</a>, where I had the opportunity to build a humble Wordpress network of drag-n-drop created sites. <br>I know. Wordpress's great right? :v",
+  "cta": {
+    "text": "Climb back up",
+    "url": "#adro",
+    "data_ga_label": "Adro"
+  },
+  "image_set": {
+    "sources": [
+      {
+        "id": 1,
+        "srcset": "/images/malta-large.jpg",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "id": 2,
+        "srcset": "/images/malta-large.jpg",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "/images/malta.jpg",
+      "alt": "Malta"
+    }
+  }
+}

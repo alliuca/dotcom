@@ -1,0 +1,109 @@
+{
+  "disabled": "false",
+  "section": "adro",
+  "ref": "cpa",
+  "title": "Centro Professionale Audio",
+  "cta": "CPA",
+  "url": "",
+  "description": "I've been looking after my father's website for quite a while now, raising it from a humble showcase to a full-fledged e-commerce shop. The current version consists of a custom Prestashop installation, coupled with a premium theme I modified according to our needs.",
+  "image_set": {
+    "sources": [
+      {
+        "id": 1,
+        "srcset": "/images/work/cpa/cpa-bg-large.png",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "id": 2,
+        "srcset": "/images/work/cpa/cpa-bg-large.png",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "/images/work/cpa/cpa-bg.png",
+      "alt": "Cpa logo background"
+    }
+  },
+  "screenshots": [
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/cpa/cpa-home-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/cpa/cpa-home-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/cpa/cpa-home.jpg",
+          "alt": "Cpa Home"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/cpa/cpa-product-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/cpa/cpa-product-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/cpa/cpa-product.jpg",
+          "alt": "Cpa Product Page"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/cpa/cpa-cart-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/cpa/cpa-cart-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/cpa/cpa-cart.jpg",
+          "alt": "Cpa Cart Page"
+        }
+      }
+    }
+  ],
+  "technologies": [
+    {
+      "id": "HTML5"
+    },
+    {
+      "id": "CSS3"
+    },
+    {
+      "id": "JavaScript"
+    },
+    {
+      "id": "jQuery"
+    },
+    {
+      "id": "PHP"
+    },
+    {
+      "id": "Prestashop"
+    }
+  ]
+}

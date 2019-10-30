@@ -1,0 +1,109 @@
+{
+  "disabled": "false",
+  "section": "amsterdam",
+  "ref": "jaguar",
+  "title": "Jaguar F-TYPE Project 7",
+  "cta": "Jaguar",
+  "url": "",
+  "description": "Back in a war room renamed for the occasion 'the jaguar's cave', we produced this nice site for just a bunch (a hundred) of lucky people who were about to get their hands on the Jaguar F-Type. Inside a tool could be used to set up your Jaguar and share the configuration to all your envious friends.",
+  "image_set": {
+    "sources": [
+      {
+        "id": 1,
+        "srcset": "/images/work/jaguar/jaguar-bg-large.png",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "id": 2,
+        "srcset": "/images/work/jaguar/jaguar-bg.png",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "/images/work/jaguar/jaguar-bg.png",
+      "alt": "Jaguar Logo background"
+    }
+  },
+  "screenshots": [
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/jaguar/jaguar-home-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/jaguar/jaguar-home-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/jaguar/jaguar-home.jpg",
+          "alt": "Jaguar Home"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/jaguar/jaguar-configurator-color-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/jaguar/jaguar-configurator-color-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/jaguar/jaguar-configurator-color.jpg",
+          "alt": "Jaguar Configuration Color"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/jaguar/jaguar-configurator-summary-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/jaguar/jaguar-configurator-summary-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/jaguar/jaguar-configurator-summary.jpg",
+          "alt": "Jaguar Configuration Summary"
+        }
+      }
+    }
+  ],
+  "technologies": [
+    {
+      "id": "HTML5"
+    },
+    {
+      "id": "CSS3"
+    },
+    {
+      "id": "JavaScript"
+    },
+    {
+      "id": "jQuery"
+    },
+    {
+      "id": "Middleman"
+    },
+    {
+      "id": "Sass"
+    }
+  ]
+}

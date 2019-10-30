@@ -1,0 +1,118 @@
+{
+  "disabled": "false",
+  "section": "amsterdam",
+  "ref": "michelin",
+  "title": "Michelin",
+  "cta": "Michelin",
+  "url": "http://www.michelin.fr/",
+  "description": "I've helped maintaining and building the Front End of the current Michelin website for three years. I was also responsible for building the UI for the Michelin CrossClimate campaign site, witnessing an historical tire launch.",
+  "image_set": {
+    "sources": [
+      {
+        "id": 1,
+        "srcset": "/images/work/michelin/michelin-bg-large.png",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "id": 2,
+        "srcset": "/images/work/michelin/michelin-bg.png",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "/images/work/michelin/michelin-bg.png",
+      "alt": "Michelin Bibendum background"
+    }
+  },
+  "screenshots": [
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/michelin/michelin-fr-home-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/michelin/michelin-fr-home-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/michelin/michelin-fr-home.jpg",
+          "alt": "Michelin Homepage"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/michelin/michelin-com-tr-tdp-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/michelin/michelin-com-tr-tdp-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/michelin/michelin-com-tr-tdp.jpg",
+          "alt": "Michelin Tyre Detail Page"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/michelin/michelin-cc-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/michelin/michelin-cc-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/michelin/michelin-cc.jpg",
+          "alt": "Michelin CrossClimate Homepage"
+        }
+      }
+    }
+  ],
+  "technologies": [
+    {
+      "id": "HTML5"
+    },
+    {
+      "id": "CSS3"
+    },
+    {
+      "id": "JavaScript"
+    },
+    {
+      "id": "jQuery"
+    },
+    {
+      "id": "BackboneJS"
+    },
+    {
+      "id": "Middleman"
+    },
+    {
+      "id": "Greensock"
+    },
+    {
+      "id": "Sass"
+    },
+    {
+      "id": "Vagrant"
+    }
+  ]
+}

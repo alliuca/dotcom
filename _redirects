@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://confident-wilson-a6a473.netlify.com/* https://alliuca.com/:splat 301!

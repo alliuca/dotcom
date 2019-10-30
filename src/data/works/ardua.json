@@ -1,0 +1,109 @@
+{
+  "disabled": "false",
+  "section": "adro",
+  "ref": "ardua",
+  "title": "Ardua",
+  "cta": "Ardua",
+  "url": "",
+  "description": "Ardua helped me get into the professional web development world and refine my skills, building gorgeous campaign sites for local companies in my area. This is Andrea's main website, a custom installation of Wordpress with his fine design touch based on a premium theme.",
+  "image_set": {
+    "sources": [
+      {
+        "id": 1,
+        "srcset": "/images/work/ardua/ardua-bg-large.png",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "id": 2,
+        "srcset": "/images/work/ardua/ardua-bg-large.png",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "/images/work/ardua/ardua-bg.png",
+      "alt": "Ardua logo background"
+    }
+  },
+  "screenshots": [
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/ardua/ardua-home-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/ardua/ardua-home-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/ardua/ardua-home.jpg",
+          "alt": "Ardua Home"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/ardua/ardua-work-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/ardua/ardua-work-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/ardua/ardua-work.jpg",
+          "alt": "Ardua Work Page"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/ardua/ardua-blog-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/ardua/ardua-blog-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/ardua/ardua-blog.jpg",
+          "alt": "Ardua Blog Page"
+        }
+      }
+    }
+  ],
+  "technologies": [
+    {
+      "id": "HTML5"
+    },
+    {
+      "id": "CSS3"
+    },
+    {
+      "id": "JavaScript"
+    },
+    {
+      "id": "jQuery"
+    },
+    {
+      "id": "PHP"
+    },
+    {
+      "id": "Wordpress"
+    }
+  ]
+}
