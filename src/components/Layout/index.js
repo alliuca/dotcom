@@ -5,6 +5,9 @@ import { StaticQuery, graphql } from 'gatsby'
 import favicon from '../../images/favicon.png'
 
 import '../../theme'
+import { GlobalStylesUtils } from '../../theme/utils';
+import { GlobalStylesVariables } from '../../theme/settings';
+import { GlobalStyles } from '../../theme/base';
 import Layout from './theme'
 import Header from './../Header'
 import Footer from './../Footer'
@@ -37,6 +40,9 @@ const LayoutComponent = ({ children, data }) => (
           <link rel="icon" type="image/png" href={favicon} />
           <link rel="canonical" href={data.site.siteMetadata.siteUrl} />
         </Helmet>
+        <GlobalStylesUtils />
+        <GlobalStylesVariables />
+        <GlobalStyles />
         <Header siteTitle={data.site.siteMetadata.title} />
         <Layout itemScope itemType="http://schema.org/Organization">
           {children}
