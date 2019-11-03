@@ -48,10 +48,10 @@ class IndexPage extends React.PureComponent {
         {data.allSectionsJson.edges.map(({ node }) => {
           const works = data.allWorksJson
             ? data.allWorksJson.edges.filter(
-                work => work.node.section === node.ref
+                work => work.node.section === node.name
               )
             : []
-          return <Section key={node.ref} node={node} works={works} />
+          return <Section key={node.name} node={node} works={works} />
         })}
       </Layout>
     )
@@ -66,7 +66,7 @@ export const query = graphql`
       edges {
         node {
           order
-          ref
+          name
           title
           logo {
             url
@@ -97,7 +97,7 @@ export const query = graphql`
       edges {
         node {
           section
-          ref
+          name
           title
           cta
           description

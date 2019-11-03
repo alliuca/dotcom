@@ -1,7 +1,7 @@
 {
   "disabled": "false",
   "section": "vancouver",
-  "ref": "storm-crow",
+  "name": "storm-crow",
   "title": "Storm Crow - Santa Says",
   "cta": "Storm Crow",
   "url": "http://santasays.intergalactic.com/",

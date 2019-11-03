@@ -1,5 +1,6 @@
 import React from 'react'
-import styled, { css } from 'react-emotion'
+import styled from '@emotion/styled'
+import { css } from '@emotion/core'
 import mq from '../../theme/responsive'
 
 // const Slider = styled.div(
@@ -68,6 +69,7 @@ const Container = styled.div(
 )
 
 const sliderStyles = css`
+  position: relative;
   width: 88%;
   transform: translate(7%, 15.5%);
 
@@ -164,7 +166,7 @@ const controlStyles = ({ prev, next }) => css`
 `
 
 const Slider = React.forwardRef((props, ref) => (
-  <div {...props} ref={ref} className={`js_slider ${sliderStyles}`}>
+  <div {...props} ref={ref} className="js_slider" css={sliderStyles}>
     {props.children}
   </div>
 ))
@@ -172,27 +174,28 @@ const Slider = React.forwardRef((props, ref) => (
 Slider.Container = Container
 
 Slider.Frame = props => (
-  <div {...props} className={`js_frame ${frameStyles}`}>
+  <div {...props} className="js_frame" css={frameStyles}>
     {props.children}
   </div>
 )
 Slider.Slides = props => (
-  <ul {...props} className={`js_slides ${slidesStyles}`}>
+  <ul {...props} className="js_slides" css={slidesStyles}>
     {props.children}
   </ul>
 )
 Slider.Slide = props => (
-  <li {...props} className={`js_slide ${slideStyles}`}>
+  <li {...props} className="js_slide" css={slideStyles}>
     {props.children}
   </li>
 )
 Slider.Control = props => (
   <span
     {...props}
-    className={`js_${props.prev ? 'prev' : 'next'} ${controlStyles({
+    className={`js_${props.prev ? 'prev' : 'next'}`}
+    css={controlStyles({
       prev: props.prev,
       next: props.next,
-    })}`}
+    })}
   >
     {props.children}
   </span>

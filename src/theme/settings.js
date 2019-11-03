@@ -2,8 +2,8 @@ import { Global, css } from '@emotion/core'
 import mq from './responsive'
 
 export const GlobalStylesVariables = () => (
-  <Global style={
-    css`
+  <Global
+    styles={css`
       :root {
         /* colors */
         --white: #fdfdfd;
@@ -47,6 +47,6 @@ export const GlobalStylesVariables = () => (
           --default_font_size: 16;
         `)};
       }
-    `
-  } />
-);
+    `}
+  />
+)

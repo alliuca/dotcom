@@ -10,7 +10,7 @@ class SectionComponent extends PureComponent {
     work: null,
   }
 
-  openWork = ref => this.setState({ work: ref })
+  openWork = name => this.setState({ work: name })
 
   closeWork = () => this.setState({ work: null })
 
@@ -19,12 +19,12 @@ class SectionComponent extends PureComponent {
 
     return (
       <Section
-        id={node.ref}
+        id={node.name}
         data-order={node.order}
-        place={node.location ? node.ref : false}
-        isContactFooter={node.ref === 'contact'}
+        place={node.location ? node.name : false}
+        isContactFooter={node.name === 'contact'}
       >
-        {node.ref === 'contact' ? (
+        {node.name === 'contact' ? (
           <>
             <Section.Content>
               <Section.ContentHeading2>{node.title}</Section.ContentHeading2>
@@ -36,7 +36,7 @@ class SectionComponent extends PureComponent {
           </>
         ) : (
           <Section.Content>
-            {node.ref === 'intro' ? (
+            {node.name === 'intro' ? (
               <Section.ContentIntroMain>
                 <Section.ContentHeading>{node.title}</Section.ContentHeading>
                 <p dangerouslySetInnerHTML={{ __html: node.copy }} />
@@ -58,12 +58,12 @@ class SectionComponent extends PureComponent {
               <Section.ContentCtas>
                 {works.map(work => (
                   <Section.ContentCtaButton
-                    key={work.node.ref}
-                    ref={work.node.ref}
+                    key={work.node.name}
+                    // ref={work.node.ref}
                     onClick={() => {
                       gaTrack('Work Button', work.node.title)
                       scrollTo(`#${work.node.section}`)
-                      this.openWork(work.node.ref)
+                      this.openWork(work.node.name)
                     }}
                     small
                     white
@@ -75,13 +75,13 @@ class SectionComponent extends PureComponent {
             )}
             <Section.ContentCtaButton
               href={node.cta.url}
-              scroll={node.location ? node.ref : false}
+              scroll={node.location ? node.name : false}
               onClick={() => {
                 gaTrack('Scroll to section Button', node.cta.data_ga_label)
                 scrollTo(node.cta.url)
               }}
               dangerouslySetInnerHTML={{ __html: node.cta.text }}
-              small={node.ref !== 'intro'}
+              small={node.name !== 'intro'}
             />
             <Section.ContentNote
               dangerouslySetInnerHTML={{ __html: node.note }}
@@ -96,9 +96,9 @@ class SectionComponent extends PureComponent {
         {works &&
           works.map(({ node }) => (
             <Work
-              key={node.ref}
-              active={this.state.work === node.ref}
-              reference={node.ref}
+              key={node.name}
+              active={this.state.work === node.name}
+              reference={node.name}
               imageSet={node.image_set}
               screenshots={node.screenshots}
               closeWork={this.closeWork}

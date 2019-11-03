@@ -1,4 +1,4 @@
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
 
 const Layout = styled.div`
   max-width: var(--site_max_width);

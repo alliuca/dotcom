@@ -1,4 +1,5 @@
-import styled, { css } from 'react-emotion'
+import styled from '@emotion/styled'
+import { css } from '@emotion/core'
 import Button from '../Button'
 import mq from '../../theme/responsive'
 
@@ -119,7 +120,7 @@ const Section = styled.section(
             display: block;
           `)};
 
-          &:first-child {
+          &:first-of-type {
             justify-content: flex-end;
           }
 
