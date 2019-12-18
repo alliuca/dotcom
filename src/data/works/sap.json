@@ -1,0 +1,86 @@
+{
+  "disabled": "false",
+  "section": "remote",
+  "name": "sap",
+  "title": "SAP",
+  "cta": "SAP",
+  "url": "https://www.sap.com/",
+  "description": "Augmenting the Intergalactic agency team, I worked on this awesome React Native app for folks at SAP that pulls data from a headless Drupal instance",
+  "image_set": {
+    "sources": [
+      {
+        "id": 1,
+        "srcset": "",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "id": 2,
+        "srcset": "",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "",
+      "alt": "SAP background"
+    }
+  },
+  "screenshots": [
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/sap/sap-monthly-view-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/sap/sap-monthly-view-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/sap/sap-monthly-view.jpg",
+          "alt": "SAP Monthly View Screen"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/sap/sap-filters-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/sap/sap-filters-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/sap/sap-filters.jpg",
+          "alt": "SAP Filters Screen"
+        }
+      }
+    }
+  ],
+  "technologies": [
+    {
+      "id": "ReactNative"
+    },
+    {
+      "id": "Redux"
+    },
+    {
+      "id": "StyledComponents"
+    },
+    {
+      "id": "JavaScript"
+    },
+    {
+      "id": "Drupal"
+    }
+  ]
+}

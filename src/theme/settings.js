@@ -11,6 +11,7 @@ export const GlobalStylesVariables = () => (
         --red: #f42b39;
         --grey: #cdcdcd;
         --green: #488f45;
+        --sap: #0098d9;
         --uala: #ffea30;
         --spottedbylocals: #a0f05a;
         --muse: #c42aa2;

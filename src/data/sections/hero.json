@@ -5,7 +5,7 @@
   "copy": "My name's Luca and I squeeze tasty web juice for life. <br>I'm a solid Front-End Developer with an artsy dark side. <br>This is my story in reverse.",
   "cta": {
     "text": "Cross the new frontier",
-    "url": "#vancouver",
-    "data_ga_label": "Vancouver"
+    "url": "#remote",
+    "data_ga_label": "Remote"
   }
 }
