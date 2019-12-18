@@ -4,6 +4,11 @@ import mq from '../../theme/responsive'
 
 const workStyles = ({ reference }) => {
   switch (reference) {
+    case 'uala':
+      return css`
+        background: var(--uala);
+        color: var(--black);
+      `
     case 'spottedbylocals':
       return css`
         background: var(--spottedbylocals);

@@ -1,0 +1,89 @@
+{
+  "disabled": "false",
+  "section": "remote",
+  "name": "uala",
+  "title": "Uala Business",
+  "cta": "UALA",
+  "url": "https://business.uala.it/",
+  "description": "UALA is one of the top fast-growing fashion startups in Italy. Along with a team of other talented people I worked on the new web-based version of their successful Business app: a React.js-powered administrative application for beauty parlors and hair salons to manage their internal processes.",
+  "image_set": {
+    "sources": [
+      {
+        "id": 1,
+        "srcset": "",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "id": 2,
+        "srcset": "",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "",
+      "alt": "UALA background"
+    }
+  },
+  "screenshots": [
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/uala/uala-business-agenda-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/uala/uala-business-agenda-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/uala/uala-business-agenda.jpg",
+          "alt": "UALA Business Agenda"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/uala/uala-business-admin-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/uala/uala-business-admin-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/uala/uala-business-admin.jpg",
+          "alt": "UALA Business Admin"
+        }
+      }
+    }
+  ],
+  "technologies": [
+    {
+      "id": "HTML5"
+    },
+    {
+      "id": "Emotion"
+    },
+    {
+      "id": "JavaScript"
+    },
+    {
+      "id": "React"
+    },
+    {
+      "id": "Redux"
+    },
+    {
+      "id": "Storybook"
+    }
+  ]
+}

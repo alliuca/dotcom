@@ -11,6 +11,7 @@ export const GlobalStylesVariables = () => (
         --red: #f42b39;
         --grey: #cdcdcd;
         --green: #488f45;
+        --uala: #ffea30;
         --spottedbylocals: #a0f05a;
         --muse: #c42aa2;
         --skookum_festival: #38077f;
