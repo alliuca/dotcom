@@ -5,6 +5,16 @@ import mq from '../../theme/responsive'
 
 const placeStyles = ({ place }) => {
   switch (place) {
+    case 'remote':
+      return css`
+        &:after {
+          background: linear-gradient(
+            to bottom,
+            transparent 0%,
+            var(--color-remote) 58%
+          );
+        }
+      `
     case 'vancouver':
       return css`
         &:after {

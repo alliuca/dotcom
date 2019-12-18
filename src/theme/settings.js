@@ -11,6 +11,7 @@ export const GlobalStylesVariables = () => (
         --red: #f42b39;
         --grey: #cdcdcd;
         --green: #488f45;
+        --spottedbylocals: #a0f05a;
         --muse: #c42aa2;
         --skookum_festival: #38077f;
         --storm_crow: #42bdf1;
@@ -23,6 +24,7 @@ export const GlobalStylesVariables = () => (
         --yellow_pages: #feda2d;
         --cpa: #a50010;
         --ardua: #f1efef;
+        --color-remote: #f1f7f1;
         --color-vancouver: #d6dedc;
         --color-amsterdam: #f18857;
         --color-berlin: #a8adb1;

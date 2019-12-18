@@ -1,0 +1,106 @@
+{
+  "disabled": "false",
+  "section": "remote",
+  "name": "spottedbylocals",
+  "title": "Spotted By Locals",
+  "cta": "Spotted By Locals",
+  "url": "https://www.spottedbylocals.com/",
+  "description": "Spotted By Locals let you experience cities as a true local. Under the hood lies a WordPress network of sites full of fantastic tips for international travellers. I recently helped with a re-design, updating and extending the platform, cleaning up old code, re-styling and improving the overall performance.",
+  "image_set": {
+    "sources": [
+      {
+        "id": 1,
+        "srcset": "",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "id": 2,
+        "srcset": "",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "",
+      "alt": "Spotted By Locals background"
+    }
+  },
+  "screenshots": [
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/spottedbylocals/spottedbylocals-home-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/spottedbylocals/spottedbylocals-home-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/spottedbylocals/spottedbylocals-home.jpg",
+          "alt": "Spotted By Locals Home"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/spottedbylocals/spottedbylocals-blog-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/spottedbylocals/spottedbylocals-blog-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/spottedbylocals/spottedbylocals-blog.jpg",
+          "alt": "Spotted By Locals Blog"
+        }
+      }
+    },
+    {
+      "image_set": {
+        "sources": [
+          {
+            "id": 1,
+            "srcset": "/images/work/spottedbylocals/spottedbylocals-city-large.png",
+            "media": "(min-width: 62rem)"
+          },
+          {
+            "id": 2,
+            "srcset": "/images/work/spottedbylocals/spottedbylocals-city-large.png",
+            "media": "(min-width: 48rem)"
+          }
+        ],
+        "img": {
+          "srcset": "/images/work/spottedbylocals/spottedbylocals-city.jpg",
+          "alt": "Spotted By Locals City"
+        }
+      }
+    }
+  ],
+  "technologies": [
+    {
+      "id": "HTML5"
+    },
+    {
+      "id": "CSS3"
+    },
+    {
+      "id": "JavaScript"
+    },
+    {
+      "id": "Wordpress"
+    },
+    {
+      "id": "PHP"
+    }
+  ]
+}

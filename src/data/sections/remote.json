@@ -1,0 +1,33 @@
+{
+  "order": 1,
+  "name": "remote",
+  "title": "alliuca.com",
+  "logo": {
+    "url": "/images/logos/my-logo2.png"
+  },
+  "location": "<span itemprop='location'>Remote</span>",
+  "copy": "The sky's the limit. No place really defines me so I figured I'd code while floating around the Earth. I've been collaborating with clients from different corners of the world, providing my expertise in HTML/CSS/JavaScript, React, WordPress and [insert buzzword here].",
+  "cta": {
+    "text": "Get into the great outdoors",
+    "url": "#vancouver",
+    "data_ga_label": "Vancouver"
+  },
+  "image_set": {
+    "sources": [
+      {
+        "id": 1,
+        "srcset": "/images/remote-2-large.jpg",
+        "media": "(min-width: 62rem)"
+      },
+      {
+        "id": 2,
+        "srcset": "/images/remote-2-large.jpg",
+        "media": "(min-width: 48rem)"
+      }
+    ],
+    "img": {
+      "srcset": "/images/remote-2.jpg",
+      "alt": "Remote"
+    }
+  }
+}
