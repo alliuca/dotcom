@@ -10,7 +10,13 @@ const analytics = Analytics({
   ],
 })
 
-analytics.page()
+analytics.on('page', ({ payload }) => {
+  console.info('page view fired', payload)
+})
+
+analytics.on('track', ({ payload }) => {
+  console.info('track', payload)
+})
 
 if (typeof window !== 'undefined') {
   window.Analytics = analytics

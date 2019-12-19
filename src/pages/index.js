@@ -78,6 +78,7 @@ export const query = graphql`
           cta {
             text
             url
+            data_ga_label
           }
           image_set {
             sources {
