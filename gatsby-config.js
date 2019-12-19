@@ -64,7 +64,7 @@ module.exports = {
     },
     'gatsby-transformer-json',
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-analytics`,
     },
   ],
 }
