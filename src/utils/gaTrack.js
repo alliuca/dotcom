@@ -1,5 +1,8 @@
+import analytics from '../analytics'
+
 export default (gaCat, gaLabel, type = 'click') => {
-  if (window.ga) {
-    window.ga('send', 'event', gaCat, type, gaLabel)
-  }
+  analytics.track(type, {
+    category: gaCat,
+    label: gaLabel,
+  })
 }
