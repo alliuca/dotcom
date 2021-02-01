@@ -1,4 +1,4 @@
-import { injectGlobal, css } from 'emotion'
+import { injectGlobal, css } from '@emotion/css'
 import mq from './responsive'
 
 injectGlobal`

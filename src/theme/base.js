@@ -1,4 +1,4 @@
-import { injectGlobal } from 'emotion'
+import { injectGlobal } from '@emotion/css'
 
 injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&subset=latin');

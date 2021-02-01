@@ -1,4 +1,4 @@
-import { css } from 'react-emotion'
+import { css } from '@emotion/react'
 
 const breakpoints = {
   mobile: '(max-width: 767px)',
