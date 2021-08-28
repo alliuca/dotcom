@@ -8,7 +8,7 @@ const FooterComponent = () => {
     <Footer>
       <p>
         <strong>alliuca.com</strong>
-        <span>&nbsp;&copy; 2022</span>
+        <span>&nbsp;&copy; 2021</span>
         <a
           href="#intro"
           onClick={() => {
