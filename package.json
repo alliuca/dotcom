@@ -5,7 +5,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@analytics/google-analytics": "^0.5.3",
-    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.0.0",
     "@emotion/styled": "^11.3.0",
     "analytics": "^0.7.14",
     "gatsby": "^3.12.1",
